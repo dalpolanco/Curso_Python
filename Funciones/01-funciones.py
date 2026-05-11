@@ -1,7 +1,10 @@
-def hola(nombre, apellido):
+def hola(nombre, apellido="Feliz"):
     print("Hola Mundo!")
     print(f"Bienvenido {nombre} {apellido}!")
 
 
-hola("Daniel", "Perz")
-hola("chanchito", "Pereza")
+hola("Daniel", "Perez")
+hola("chanchito")
+
+
+hola(apellido="Perez", nombre="Pedro")
