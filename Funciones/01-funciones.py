@@ -1,6 +1,7 @@
-def hola():
+def hola(nombre, apellido):
     print("Hola Mundo!")
-    print("Ultimate Python!")
+    print(f"Bienvenido {nombre} {apellido}!")
 
 
-hola()
+hola("Daniel", "Perz")
+hola("chanchito", "Pereza")
