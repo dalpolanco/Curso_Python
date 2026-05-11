@@ -1,2 +1,8 @@
+buscar = 6
 for numero in range(5):
-    print(numero, numero * 'Hola Mundo')
+    print(numero)
+    if numero == buscar:
+        print("Encontrado", buscar)
+        break
+else:
+    print("No encontre el numero buscado :(")
