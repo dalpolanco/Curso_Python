@@ -1,0 +1,10 @@
+def calcular_media(*promedio):
+    if not promedio:
+        return 0
+    return sum(promedio) / len(promedio)
+
+
+# Ejemplo de uso
+print(calcular_media(1, 2, 3, 4, 5))  # Salida: 3.0
+print(calcular_media(2, 2, 2, 2, 2))  # Salida: 2.0
+print(calcular_media(20, 30, 40, 50, 60))  # Salida: 2.0
